@@ -4,6 +4,7 @@ import Content from './Content/Content'
 import Total from './Total/Total'
 
 const Course = ({course}) => {
+    console.log(course)
     const name = course.name
     const parts = course.parts
 
