@@ -52,7 +52,7 @@ const App = () => {
 
   const handleKeywordChange = (event) => {
     setKeyword(event.target.value)
-    console.log(keyword)
+    // console.log(keyword)
   }
 
   return (
